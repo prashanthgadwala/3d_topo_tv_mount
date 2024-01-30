@@ -44,7 +44,7 @@ force_2 = []
 force_3 = []
 force_4 = []
 
-r = 0.1  # radius of the cylinder
+r = 0.2  # radius of the cylinder
 
 centers = [(2, 2), (8, 2), (2, 6), (8, 6)]  # centers of the cylinders
 
@@ -53,7 +53,7 @@ force_sets = [force_1, force_2, force_3, force_4]  # list of force sets
 for i, n in enumerate(mesh.nodes):
     x, y, z = n
     for j, (h, k) in enumerate(centers):
-        if ((x - h)**2 + (y - k)**2 <= r**2) and 5.25 < z < 6:
+        if ((x - h)**2 + (y - k)**2 <= r**2) and 5.75 < z < 6:
             force_sets[j].append(i)
 
     if 4 < x < 6 and 0 < y < 8 and 0 < z < 0.25:
