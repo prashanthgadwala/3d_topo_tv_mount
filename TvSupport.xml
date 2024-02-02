@@ -109,8 +109,8 @@
 
     <ersatzMaterial region="mech" material="mechanic" method="simp" >
       <filters>
-        <filter neighborhood="maxEdge" value="2.3" type="density" >
-          <density type="solid_heaviside" beta="2"/>
+        <filter neighborhood="maxEdge" value="1.7" type="density" >
+<!--           <density type="solid_heaviside" beta="2"/> -->
         </filter>
       </filters>
 
