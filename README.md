@@ -25,7 +25,7 @@ We provide openCFS including all dependencies in a single archive. The software 
 
 1. Download the most recent archive, e.g., the latest release package Linux binary (tar.gz):
     ```sh
-    wget https://gitlab.com/openCFS/cfs/-/releases/permalink/latest/downloads/CFS-Linux.tar.gz
+    curl -L -o CFS-Linux.tar.gz https://gitlab.com/openCFS/cfs/-/releases/permalink/latest/downloads/CFS-Linux.tar.gz
     ```
 2. Extract the archive to the desired location:
     ```sh
@@ -85,3 +85,4 @@ CFS will write some output on the terminal and produce two files:
 ## Postprocessing with ParaView
 
 Open ParaView (by typing `paraview` in a terminal) and load the result file using `File > Open...`, then click `Apply`.
+tar -xzvf CFS-Linux.tar.gz -C /path/to/other/location
