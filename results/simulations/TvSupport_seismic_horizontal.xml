@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cfsSimulation xmlns="http://www.cfs++.org/simulation" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://www.cfs++.org/simulation 
+  https://opencfs.gitlab.io/cfs/xml/CFS-Simulation/CFS.xsd">
+  
+  <!-- Horizontal seismic loads -->
+  <!-- Load Case: seismic_horizontal -->
+  <!-- Safety Factor: 3.0 -->
+  
+  <fileFormats>
+    <output>
+      <hdf5 directory="results_seismic_horizontal"/>
+      <info/>
+    </output>
+    <materialData file="mat.xml" format="xml" />
+  </fileFormats>
+
+  <domain geometryType="3d">
+    <regionList>
+      <region name="mech"  material="99lines"/>
+      <region name="solid" material="99lines"/>      
+    </regionList>
+  </domain>
+
+  <sequenceStep index="1">
+    <analysis>
+      <static/>
+    </analysis>
+
+    <pdeList>
+      <mechanic subType="3d">
+        <regionList>
+          <region name="mech" />
+          <region name="solid" />
+        </regionList>
+
+        <bcsAndLoads>
+          <fix name="back_support"> 
+            <comp dof="x"/>
+            <comp dof="y"/>
+            <comp dof="z"/> 
+          </fix>
+          
+          <!-- Forces distributed across mounting points -->
+          <force name="seismic_horizontal_force_1">
+            <comp dof="x" value="49.050000"/>
+            <comp dof="y" value="0.000000"/>
+            <comp dof="z" value="0.000000"/>
+          </force>
+          <force name="seismic_horizontal_force_2">
+            <comp dof="x" value="49.050000"/>
+            <comp dof="y" value="0.000000"/>
+            <comp dof="z" value="0.000000"/>
+          </force>
+          <force name="seismic_horizontal_force_3">
+            <comp dof="x" value="49.050000"/>
+            <comp dof="y" value="0.000000"/>
+            <comp dof="z" value="0.000000"/>
+          </force>
+          <force name="seismic_horizontal_force_4">
+            <comp dof="x" value="49.050000"/>
+            <comp dof="y" value="0.000000"/>
+            <comp dof="z" value="0.000000"/>
+          </force>
+        </bcsAndLoads>
+
+        <storeResults>
+          <nodeResult type="mechDisplacement">
+            <regionList>
+              <region name="mech"/>
+              <region name="solid"/>
+            </regionList>
+          </nodeResult>
+          <elemResult type="physicalPseudoDensity">
+            <regionList>
+              <region name="mech"/>
+              <region name="solid"/>
+            </regionList>
+          </elemResult>
+          <elemResult type="optResult_1">
+            <regionList>
+              <region name="mech"/>
+            </regionList>
+          </elemResult>
+          <elemResult type="mechStress">
+            <regionList>
+              <region name="mech"/>
+              <region name="solid"/>
+            </regionList>
+          </elemResult>
+        </storeResults>
+      </mechanic>
+    </pdeList>
+
+    <linearSystems>
+      <system>
+        <solverList>
+          <cholmod/>
+        </solverList>
+      </system>
+    </linearSystems> 
+  </sequenceStep>
+    
+  <optimization>
+    <costFunction type="compliance" task="minimize">
+      <stopping queue="999" value="1e-06" type="designChange"/>
+    </costFunction>
+
+    <constraint type="volume" value="0.1" bound="upperBound" linear="false" mode="constraint"/>
+    <constraint type="volume" mode="observation" access="physical"/>
+    <constraint type="greyness" mode="observation"/>
+    <constraint type="greyness" mode="observation" access="physical"/>
+
+    <optimizer type="optimalityCondition" maxIterations="8">
+      <snopt>
+        <option name="major_feasibility_tolerance" type="real" value="1e-9"/>
+      </snopt>
+    </optimizer>
+
+    <ersatzMaterial region="mech" material="mechanic" method="simp">
+      <filters>
+        <filter neighborhood="maxEdge" value="1.7" type="density"/>
+      </filters>
+
+      <design name="density" initial="0.1" physical_lower="1e-9" upper="1.0"/>
+
+      <transferFunction type="simp" application="mech" param="3.0"/>
+      <export save="last" write="iteration" compress="false"/>
+      <result value="costGradient" id="optResult_1"/>
+    </ersatzMaterial>
+    <commit mode="each_forward" stride="1"/>
+  </optimization>
+</cfsSimulation>

@@ -1,182 +1,388 @@
-2025-07-12 19:36:14,457 - INFO - NumExpr defaulting to 8 threads.
-2025-07-12 19:36:14,862 - INFO - Set up 4 default load cases
-2025-07-12 19:36:14,862 - INFO - Default material properties configured
-2025-07-12 19:36:14,862 - INFO - TV Mount Optimizer initialized
-2025-07-12 19:36:14,862 - INFO - Starting optimization with steel material
-2025-07-12 19:36:14,862 - INFO - Starting adaptive mesh generation...
-2025-07-12 19:36:14,862 - INFO - Mesh resolution: 200 x 160 x 120
-2025-07-12 19:36:14,862 - INFO - Element thickness: 0.100000 m
-2025-07-12 19:36:14,862 - INFO - Creating structured mesh: 200x160x120 elements
-2025-07-12 19:36:17,750 - INFO - Created mesh with 3915681 nodes and 3840000 elements
-2025-07-12 19:36:17,750 - INFO - Defining mesh regions...
-2025-07-12 19:36:19,990 - INFO - Region distribution - Solid: 160000, Void: 160000, Mech: 3520000
-2025-07-12 19:36:19,990 - INFO - Defining boundary conditions...
-2025-07-12 19:36:20,737 - INFO - Back support nodes: 24804
-2025-07-12 19:36:20,737 - INFO - static_tv_weight force points: [188, 188, 188, 188]
-2025-07-12 19:36:20,737 - INFO - dynamic_vibration force points: [188, 188, 188, 188]
-2025-07-12 19:36:20,737 - INFO - seismic_horizontal force points: [188, 188, 188, 188]
-2025-07-12 19:36:20,737 - INFO - fatigue_cycling force points: [188, 188, 188, 188]
-2025-07-12 19:36:20,737 - INFO - Mesh quality analysis - Elements: 3840000, Nodes: 3915681
-2025-07-12 19:36:20,737 - INFO - Adaptive mesh generation completed successfully
-2025-07-12 19:36:20,737 - INFO - Writing mesh to TvMount_Advanced_nx_20_1752341780.mesh
-2025-07-12 19:36:23,832 - INFO - Mesh file written successfully: TvMount_Advanced_nx_20_1752341780.mesh
-2025-07-12 19:36:23,835 - INFO - Mesh file generated: TvMount_Advanced_nx_20_1752341780.mesh
-2025-07-12 19:36:23,835 - INFO - Generating XML configuration files...
-2025-07-12 19:36:23,837 - INFO - Generated XML configuration: TvSupport_static_tv_weight.xml
-2025-07-12 19:36:23,837 - INFO - Generated XML configuration: TvSupport_dynamic_vibration.xml
-2025-07-12 19:36:23,837 - INFO - Generated XML configuration: TvSupport_seismic_horizontal.xml
-2025-07-12 19:36:23,837 - INFO - Generated XML configuration: TvSupport_fatigue_cycling.xml
-2025-07-12 19:36:23,837 - INFO - Analyzing load case: static_tv_weight
-2025-07-12 19:36:23,839 - INFO - Analyzing load case: dynamic_vibration
-2025-07-12 19:36:23,839 - INFO - Analyzing load case: seismic_horizontal
-2025-07-12 19:36:23,839 - INFO - Analyzing load case: fatigue_cycling
-2025-07-12 19:36:23,839 - INFO - Optimization report generated: optimization_report_1752341783.md
-2025-07-12 19:36:23,839 - INFO - Optimization completed in 8.98 seconds
-2025-07-12 19:36:24,253 - INFO - Set up 4 default load cases
-2025-07-12 19:36:24,253 - INFO - Default material properties configured
-2025-07-12 19:36:24,253 - INFO - TV Mount Optimizer initialized
-2025-07-12 19:36:24,253 - INFO - Starting optimization with steel material
-2025-07-12 19:36:24,253 - INFO - Starting adaptive mesh generation...
-2025-07-12 19:36:24,253 - INFO - Mesh resolution: 200 x 160 x 120
-2025-07-12 19:36:24,253 - INFO - Element thickness: 0.100000 m
-2025-07-12 19:36:24,253 - INFO - Creating structured mesh: 200x160x120 elements
-2025-07-12 19:36:26,735 - INFO - Created mesh with 3915681 nodes and 3840000 elements
-2025-07-12 19:36:26,735 - INFO - Defining mesh regions...
-2025-07-12 19:36:29,010 - INFO - Region distribution - Solid: 160000, Void: 160000, Mech: 3520000
-2025-07-12 19:36:29,010 - INFO - Defining boundary conditions...
-2025-07-12 19:36:29,639 - INFO - Back support nodes: 24804
-2025-07-12 19:36:29,640 - INFO - static_tv_weight force points: [188, 188, 188, 188]
-2025-07-12 19:36:29,640 - INFO - dynamic_vibration force points: [188, 188, 188, 188]
-2025-07-12 19:36:29,640 - INFO - seismic_horizontal force points: [188, 188, 188, 188]
-2025-07-12 19:36:29,640 - INFO - fatigue_cycling force points: [188, 188, 188, 188]
-2025-07-12 19:36:29,640 - INFO - Mesh quality analysis - Elements: 3840000, Nodes: 3915681
-2025-07-12 19:36:29,640 - INFO - Adaptive mesh generation completed successfully
-2025-07-12 19:36:29,640 - INFO - Writing mesh to TvMount_Advanced_nx_15_1752341789.mesh
-2025-07-12 19:36:32,843 - INFO - Mesh file written successfully: TvMount_Advanced_nx_15_1752341789.mesh
-2025-07-12 19:36:32,847 - INFO - Mesh file generated: TvMount_Advanced_nx_15_1752341789.mesh
-2025-07-12 19:36:32,847 - INFO - Generating XML configuration files...
-2025-07-12 19:36:32,848 - INFO - Generated XML configuration: TvSupport_static_tv_weight.xml
-2025-07-12 19:36:32,848 - INFO - Generated XML configuration: TvSupport_dynamic_vibration.xml
-2025-07-12 19:36:32,848 - INFO - Generated XML configuration: TvSupport_seismic_horizontal.xml
-2025-07-12 19:36:32,848 - INFO - Generated XML configuration: TvSupport_fatigue_cycling.xml
-2025-07-12 19:36:32,848 - INFO - Analyzing load case: static_tv_weight
-2025-07-12 19:36:32,849 - INFO - Analyzing load case: dynamic_vibration
-2025-07-12 19:36:32,849 - INFO - Analyzing load case: seismic_horizontal
-2025-07-12 19:36:32,849 - INFO - Analyzing load case: fatigue_cycling
-2025-07-12 19:36:32,849 - INFO - Optimization report generated: optimization_report_1752341792.md
-2025-07-12 19:36:32,849 - INFO - Optimization completed in 8.60 seconds
-2025-07-12 19:36:32,849 - INFO - Set up 4 default load cases
-2025-07-12 19:36:32,849 - INFO - Default material properties configured
-2025-07-12 19:36:32,849 - INFO - TV Mount Optimizer initialized
-2025-07-12 19:36:33,256 - INFO - Starting optimization with aluminum material
-2025-07-12 19:36:33,257 - INFO - Starting adaptive mesh generation...
-2025-07-12 19:36:33,257 - INFO - Mesh resolution: 200 x 160 x 120
-2025-07-12 19:36:33,257 - INFO - Element thickness: 0.100000 m
-2025-07-12 19:36:33,257 - INFO - Creating structured mesh: 200x160x120 elements
-2025-07-12 19:36:35,883 - INFO - Created mesh with 3915681 nodes and 3840000 elements
-2025-07-12 19:36:35,883 - INFO - Defining mesh regions...
-2025-07-12 19:36:38,180 - INFO - Region distribution - Solid: 160000, Void: 160000, Mech: 3520000
-2025-07-12 19:36:38,180 - INFO - Defining boundary conditions...
-2025-07-12 19:36:38,850 - INFO - Back support nodes: 24804
-2025-07-12 19:36:38,850 - INFO - static_tv_weight force points: [188, 188, 188, 188]
-2025-07-12 19:36:38,850 - INFO - dynamic_vibration force points: [188, 188, 188, 188]
-2025-07-12 19:36:38,850 - INFO - seismic_horizontal force points: [188, 188, 188, 188]
-2025-07-12 19:36:38,850 - INFO - fatigue_cycling force points: [188, 188, 188, 188]
-2025-07-12 19:36:38,850 - INFO - Mesh quality analysis - Elements: 3840000, Nodes: 3915681
-2025-07-12 19:36:38,850 - INFO - Adaptive mesh generation completed successfully
-2025-07-12 19:36:38,850 - INFO - Writing mesh to TvMount_Advanced_nx_15_1752341798.mesh
-2025-07-12 19:36:42,258 - INFO - Mesh file written successfully: TvMount_Advanced_nx_15_1752341798.mesh
-2025-07-12 19:36:42,262 - INFO - Mesh file generated: TvMount_Advanced_nx_15_1752341798.mesh
-2025-07-12 19:36:42,262 - INFO - Generating XML configuration files...
-2025-07-12 19:36:42,262 - INFO - Generated XML configuration: TvSupport_static_tv_weight.xml
-2025-07-12 19:36:42,262 - INFO - Generated XML configuration: TvSupport_dynamic_vibration.xml
-2025-07-12 19:36:42,262 - INFO - Generated XML configuration: TvSupport_seismic_horizontal.xml
-2025-07-12 19:36:42,262 - INFO - Generated XML configuration: TvSupport_fatigue_cycling.xml
-2025-07-12 19:36:42,262 - INFO - Analyzing load case: static_tv_weight
-2025-07-12 19:36:42,262 - INFO - Analyzing load case: dynamic_vibration
-2025-07-12 19:36:42,262 - INFO - Analyzing load case: seismic_horizontal
-2025-07-12 19:36:42,262 - INFO - Analyzing load case: fatigue_cycling
-2025-07-12 19:36:42,263 - INFO - Optimization report generated: optimization_report_1752341802.md
-2025-07-12 19:36:42,263 - INFO - Optimization completed in 9.01 seconds
-2025-07-12 19:36:42,263 - INFO - Set up 4 default load cases
-2025-07-12 19:36:42,263 - INFO - Default material properties configured
-2025-07-12 19:36:42,263 - INFO - TV Mount Optimizer initialized
-2025-07-12 19:36:42,752 - INFO - Starting optimization with carbon_fiber material
-2025-07-12 19:36:42,752 - INFO - Starting adaptive mesh generation...
-2025-07-12 19:36:42,752 - INFO - Mesh resolution: 200 x 160 x 120
-2025-07-12 19:36:42,752 - INFO - Element thickness: 0.100000 m
-2025-07-12 19:36:42,752 - INFO - Creating structured mesh: 200x160x120 elements
-2025-07-12 19:36:45,385 - INFO - Created mesh with 3915681 nodes and 3840000 elements
-2025-07-12 19:36:45,385 - INFO - Defining mesh regions...
-2025-07-12 19:36:47,652 - INFO - Region distribution - Solid: 160000, Void: 160000, Mech: 3520000
-2025-07-12 19:36:47,653 - INFO - Defining boundary conditions...
-2025-07-12 19:36:48,291 - INFO - Back support nodes: 24804
-2025-07-12 19:36:48,291 - INFO - static_tv_weight force points: [188, 188, 188, 188]
-2025-07-12 19:36:48,291 - INFO - dynamic_vibration force points: [188, 188, 188, 188]
-2025-07-12 19:36:48,291 - INFO - seismic_horizontal force points: [188, 188, 188, 188]
-2025-07-12 19:36:48,291 - INFO - fatigue_cycling force points: [188, 188, 188, 188]
-2025-07-12 19:36:48,291 - INFO - Mesh quality analysis - Elements: 3840000, Nodes: 3915681
-2025-07-12 19:36:48,291 - INFO - Adaptive mesh generation completed successfully
-2025-07-12 19:36:48,291 - INFO - Writing mesh to TvMount_Advanced_nx_15_1752341808.mesh
-2025-07-12 19:36:51,472 - INFO - Mesh file written successfully: TvMount_Advanced_nx_15_1752341808.mesh
-2025-07-12 19:36:51,478 - INFO - Mesh file generated: TvMount_Advanced_nx_15_1752341808.mesh
-2025-07-12 19:36:51,478 - INFO - Generating XML configuration files...
-2025-07-12 19:36:51,479 - INFO - Generated XML configuration: TvSupport_static_tv_weight.xml
-2025-07-12 19:36:51,479 - INFO - Generated XML configuration: TvSupport_dynamic_vibration.xml
-2025-07-12 19:36:51,479 - INFO - Generated XML configuration: TvSupport_seismic_horizontal.xml
-2025-07-12 19:36:51,479 - INFO - Generated XML configuration: TvSupport_fatigue_cycling.xml
-2025-07-12 19:36:51,479 - INFO - Analyzing load case: static_tv_weight
-2025-07-12 19:36:51,479 - INFO - Analyzing load case: dynamic_vibration
-2025-07-12 19:36:51,479 - INFO - Analyzing load case: seismic_horizontal
-2025-07-12 19:36:51,479 - INFO - Analyzing load case: fatigue_cycling
-2025-07-12 19:36:51,479 - INFO - Optimization report generated: optimization_report_1752341811.md
-2025-07-12 19:36:51,479 - INFO - Optimization completed in 8.73 seconds
-2025-07-12 19:36:51,994 - INFO - Set up 4 default load cases
-2025-07-12 19:36:51,994 - INFO - Default material properties configured
-2025-07-12 19:36:51,994 - INFO - TV Mount Optimizer initialized
-2025-07-12 19:36:51,994 - INFO - Starting optimization with aluminum material
-2025-07-12 19:36:51,994 - INFO - Starting adaptive mesh generation...
-2025-07-12 19:36:51,994 - INFO - Mesh resolution: 240 x 160 x 120
-2025-07-12 19:36:51,994 - INFO - Element thickness: 0.100000 m
-2025-07-12 19:36:51,994 - INFO - Creating structured mesh: 240x160x120 elements
-2025-07-12 19:36:55,283 - INFO - Created mesh with 4694921 nodes and 4608000 elements
-2025-07-12 19:36:55,284 - INFO - Defining mesh regions...
-2025-07-12 19:36:58,118 - INFO - Region distribution - Solid: 192000, Void: 192000, Mech: 4224000
-2025-07-12 19:36:58,119 - INFO - Defining boundary conditions...
-2025-07-12 19:36:58,992 - INFO - Back support nodes: 24804
-2025-07-12 19:36:58,992 - INFO - static_tv_weight force points: [188, 188, 188, 188]
-2025-07-12 19:36:58,992 - INFO - dynamic_vibration force points: [188, 188, 188, 188]
-2025-07-12 19:36:58,992 - INFO - seismic_horizontal force points: [188, 188, 188, 188]
-2025-07-12 19:36:58,992 - INFO - fatigue_cycling force points: [188, 188, 188, 188]
-2025-07-12 19:36:58,992 - INFO - design_basis_earthquake force points: [188, 188, 188, 188]
-2025-07-12 19:36:58,992 - INFO - Mesh quality analysis - Elements: 4608000, Nodes: 4694921
-2025-07-12 19:36:58,992 - INFO - Adaptive mesh generation completed successfully
-2025-07-12 19:36:58,993 - INFO - Writing mesh to TvMount_Advanced_nx_12_1752341818.mesh
-2025-07-12 19:37:02,930 - INFO - Mesh file written successfully: TvMount_Advanced_nx_12_1752341818.mesh
-2025-07-12 19:37:02,933 - INFO - Mesh file generated: TvMount_Advanced_nx_12_1752341818.mesh
-2025-07-12 19:37:02,933 - INFO - Generating XML configuration files...
-2025-07-12 19:37:02,934 - INFO - Generated XML configuration: TvSupport_static_tv_weight.xml
-2025-07-12 19:37:02,934 - INFO - Generated XML configuration: TvSupport_dynamic_vibration.xml
-2025-07-12 19:37:02,934 - INFO - Generated XML configuration: TvSupport_seismic_horizontal.xml
-2025-07-12 19:37:02,934 - INFO - Generated XML configuration: TvSupport_fatigue_cycling.xml
-2025-07-12 19:37:02,934 - INFO - Generated XML configuration: TvSupport_design_basis_earthquake.xml
-2025-07-12 19:37:02,934 - INFO - Analyzing load case: static_tv_weight
-2025-07-12 19:37:02,934 - INFO - Analyzing load case: dynamic_vibration
-2025-07-12 19:37:02,934 - INFO - Analyzing load case: seismic_horizontal
-2025-07-12 19:37:02,934 - INFO - Analyzing load case: fatigue_cycling
-2025-07-12 19:37:02,934 - INFO - Analyzing load case: design_basis_earthquake
-2025-07-12 19:37:02,935 - INFO - Optimization report generated: optimization_report_1752341822.md
-2025-07-12 19:37:02,935 - INFO - Optimization completed in 10.94 seconds
-2025-07-12 19:37:03,476 - INFO - Results loaded from demo_results.json
-2025-07-12 19:37:05,078 - INFO - Stress distribution plot created
-2025-07-12 19:37:05,479 - INFO - Displacement analysis plot created
-2025-07-12 19:37:06,357 - INFO - Optimization convergence plot created
-2025-07-12 19:37:06,675 - INFO - 3D geometry visualization created
-2025-07-12 19:37:07,911 - INFO - Interactive dashboard created: optimization_dashboard.html
-2025-07-12 19:37:07,911 - INFO - Generating complete visualization report...
-2025-07-12 19:37:08,667 - INFO - Stress distribution plot created
-2025-07-12 19:37:09,065 - INFO - Displacement analysis plot created
-2025-07-12 19:37:09,912 - INFO - Optimization convergence plot created
-2025-07-12 19:37:09,932 - INFO - Interactive dashboard created: optimization_dashboard.html
-2025-07-12 19:37:10,253 - INFO - 3D geometry visualization created
-2025-07-12 19:37:10,253 - INFO - Complete visualization report generated: visualization_report.md
+2025-07-12 20:44:50,518 - INFO - NumExpr defaulting to 8 threads.
+2025-07-12 20:44:50,923 - INFO - Output directories initialized
+2025-07-12 20:44:50,923 - INFO - Set up 4 default load cases
+2025-07-12 20:44:50,923 - INFO - Default material properties configured
+2025-07-12 20:44:50,923 - INFO - TV Mount Optimizer initialized
+2025-07-12 20:44:50,923 - INFO - Starting optimization with steel material
+2025-07-12 20:44:50,923 - INFO - Starting adaptive mesh generation...
+2025-07-12 20:44:50,923 - INFO - Mesh resolution: 200 x 160 x 120
+2025-07-12 20:44:50,923 - INFO - Element thickness: 0.100000 m
+2025-07-12 20:44:50,923 - INFO - Creating structured mesh: 200x160x120 elements
+2025-07-12 20:44:54,047 - INFO - Created mesh with 3915681 nodes and 3840000 elements
+2025-07-12 20:44:54,048 - INFO - Defining mesh regions...
+2025-07-12 20:44:56,325 - INFO - Region distribution - Solid: 160000, Void: 160000, Mech: 3520000
+2025-07-12 20:44:56,325 - INFO - Defining boundary conditions...
+2025-07-12 20:44:57,003 - INFO - Back support nodes: 24804
+2025-07-12 20:44:57,004 - INFO - static_tv_weight force points: [188, 188, 188, 188]
+2025-07-12 20:44:57,004 - INFO - dynamic_vibration force points: [188, 188, 188, 188]
+2025-07-12 20:44:57,004 - INFO - seismic_horizontal force points: [188, 188, 188, 188]
+2025-07-12 20:44:57,004 - INFO - fatigue_cycling force points: [188, 188, 188, 188]
+2025-07-12 20:44:57,004 - INFO - Mesh quality analysis - Elements: 3840000, Nodes: 3915681
+2025-07-12 20:44:57,004 - INFO - Adaptive mesh generation completed successfully
+2025-07-12 20:44:57,005 - INFO - Writing mesh to /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_20_1752345897.mesh
+2025-07-12 20:45:00,151 - INFO - Mesh file written successfully: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_20_1752345897.mesh
+2025-07-12 20:45:00,154 - INFO - Mesh file generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_20_1752345897.mesh
+2025-07-12 20:45:00,154 - INFO - Generating XML configuration files...
+2025-07-12 20:45:00,155 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_static_tv_weight.xml
+2025-07-12 20:45:00,156 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_dynamic_vibration.xml
+2025-07-12 20:45:00,156 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_seismic_horizontal.xml
+2025-07-12 20:45:00,156 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_fatigue_cycling.xml
+2025-07-12 20:45:00,156 - INFO - Analyzing load case: static_tv_weight
+2025-07-12 20:45:00,158 - INFO - Analyzing load case: dynamic_vibration
+2025-07-12 20:45:00,158 - INFO - Analyzing load case: seismic_horizontal
+2025-07-12 20:45:00,158 - INFO - Analyzing load case: fatigue_cycling
+2025-07-12 20:45:00,158 - INFO - Optimization report generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/reports/optimization_report_1752345900.md
+2025-07-12 20:45:00,158 - INFO - Optimization completed in 9.23 seconds
+2025-07-12 20:45:00,591 - INFO - Output directories initialized
+2025-07-12 20:45:00,591 - INFO - Set up 4 default load cases
+2025-07-12 20:45:00,591 - INFO - Default material properties configured
+2025-07-12 20:45:00,591 - INFO - TV Mount Optimizer initialized
+2025-07-12 20:45:00,591 - INFO - Starting optimization with steel material
+2025-07-12 20:45:00,591 - INFO - Starting adaptive mesh generation...
+2025-07-12 20:45:00,591 - INFO - Mesh resolution: 200 x 160 x 120
+2025-07-12 20:45:00,591 - INFO - Element thickness: 0.100000 m
+2025-07-12 20:45:00,591 - INFO - Creating structured mesh: 200x160x120 elements
+2025-07-12 20:45:03,015 - INFO - Created mesh with 3915681 nodes and 3840000 elements
+2025-07-12 20:45:03,016 - INFO - Defining mesh regions...
+2025-07-12 20:45:05,291 - INFO - Region distribution - Solid: 160000, Void: 160000, Mech: 3520000
+2025-07-12 20:45:05,291 - INFO - Defining boundary conditions...
+2025-07-12 20:45:05,953 - INFO - Back support nodes: 24804
+2025-07-12 20:45:05,953 - INFO - static_tv_weight force points: [188, 188, 188, 188]
+2025-07-12 20:45:05,953 - INFO - dynamic_vibration force points: [188, 188, 188, 188]
+2025-07-12 20:45:05,953 - INFO - seismic_horizontal force points: [188, 188, 188, 188]
+2025-07-12 20:45:05,953 - INFO - fatigue_cycling force points: [188, 188, 188, 188]
+2025-07-12 20:45:05,953 - INFO - Mesh quality analysis - Elements: 3840000, Nodes: 3915681
+2025-07-12 20:45:05,953 - INFO - Adaptive mesh generation completed successfully
+2025-07-12 20:45:05,953 - INFO - Writing mesh to /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345905.mesh
+2025-07-12 20:45:09,232 - INFO - Mesh file written successfully: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345905.mesh
+2025-07-12 20:45:09,235 - INFO - Mesh file generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345905.mesh
+2025-07-12 20:45:09,235 - INFO - Generating XML configuration files...
+2025-07-12 20:45:09,236 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_static_tv_weight.xml
+2025-07-12 20:45:09,236 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_dynamic_vibration.xml
+2025-07-12 20:45:09,236 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_seismic_horizontal.xml
+2025-07-12 20:45:09,236 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_fatigue_cycling.xml
+2025-07-12 20:45:09,236 - INFO - Analyzing load case: static_tv_weight
+2025-07-12 20:45:09,236 - INFO - Analyzing load case: dynamic_vibration
+2025-07-12 20:45:09,236 - INFO - Analyzing load case: seismic_horizontal
+2025-07-12 20:45:09,236 - INFO - Analyzing load case: fatigue_cycling
+2025-07-12 20:45:09,237 - INFO - Optimization report generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/reports/optimization_report_1752345909.md
+2025-07-12 20:45:09,237 - INFO - Optimization completed in 8.65 seconds
+2025-07-12 20:45:09,237 - INFO - Output directories initialized
+2025-07-12 20:45:09,237 - INFO - Set up 4 default load cases
+2025-07-12 20:45:09,237 - INFO - Default material properties configured
+2025-07-12 20:45:09,237 - INFO - TV Mount Optimizer initialized
+2025-07-12 20:45:09,660 - INFO - Starting optimization with aluminum material
+2025-07-12 20:45:09,660 - INFO - Starting adaptive mesh generation...
+2025-07-12 20:45:09,660 - INFO - Mesh resolution: 200 x 160 x 120
+2025-07-12 20:45:09,660 - INFO - Element thickness: 0.100000 m
+2025-07-12 20:45:09,660 - INFO - Creating structured mesh: 200x160x120 elements
+2025-07-12 20:45:12,269 - INFO - Created mesh with 3915681 nodes and 3840000 elements
+2025-07-12 20:45:12,269 - INFO - Defining mesh regions...
+2025-07-12 20:45:14,492 - INFO - Region distribution - Solid: 160000, Void: 160000, Mech: 3520000
+2025-07-12 20:45:14,492 - INFO - Defining boundary conditions...
+2025-07-12 20:45:15,244 - INFO - Back support nodes: 24804
+2025-07-12 20:45:15,245 - INFO - static_tv_weight force points: [188, 188, 188, 188]
+2025-07-12 20:45:15,245 - INFO - dynamic_vibration force points: [188, 188, 188, 188]
+2025-07-12 20:45:15,245 - INFO - seismic_horizontal force points: [188, 188, 188, 188]
+2025-07-12 20:45:15,245 - INFO - fatigue_cycling force points: [188, 188, 188, 188]
+2025-07-12 20:45:15,245 - INFO - Mesh quality analysis - Elements: 3840000, Nodes: 3915681
+2025-07-12 20:45:15,245 - INFO - Adaptive mesh generation completed successfully
+2025-07-12 20:45:15,245 - INFO - Writing mesh to /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345915.mesh
+2025-07-12 20:45:18,563 - INFO - Mesh file written successfully: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345915.mesh
+2025-07-12 20:45:18,566 - INFO - Mesh file generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345915.mesh
+2025-07-12 20:45:18,566 - INFO - Generating XML configuration files...
+2025-07-12 20:45:18,567 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_static_tv_weight.xml
+2025-07-12 20:45:18,567 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_dynamic_vibration.xml
+2025-07-12 20:45:18,567 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_seismic_horizontal.xml
+2025-07-12 20:45:18,567 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_fatigue_cycling.xml
+2025-07-12 20:45:18,567 - INFO - Analyzing load case: static_tv_weight
+2025-07-12 20:45:18,567 - INFO - Analyzing load case: dynamic_vibration
+2025-07-12 20:45:18,568 - INFO - Analyzing load case: seismic_horizontal
+2025-07-12 20:45:18,568 - INFO - Analyzing load case: fatigue_cycling
+2025-07-12 20:45:18,568 - INFO - Optimization report generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/reports/optimization_report_1752345918.md
+2025-07-12 20:45:18,568 - INFO - Optimization completed in 8.91 seconds
+2025-07-12 20:45:18,568 - INFO - Output directories initialized
+2025-07-12 20:45:18,568 - INFO - Set up 4 default load cases
+2025-07-12 20:45:18,568 - INFO - Default material properties configured
+2025-07-12 20:45:18,568 - INFO - TV Mount Optimizer initialized
+2025-07-12 20:45:19,029 - INFO - Starting optimization with carbon_fiber material
+2025-07-12 20:45:19,029 - INFO - Starting adaptive mesh generation...
+2025-07-12 20:45:19,029 - INFO - Mesh resolution: 200 x 160 x 120
+2025-07-12 20:45:19,029 - INFO - Element thickness: 0.100000 m
+2025-07-12 20:45:19,029 - INFO - Creating structured mesh: 200x160x120 elements
+2025-07-12 20:45:21,592 - INFO - Created mesh with 3915681 nodes and 3840000 elements
+2025-07-12 20:45:21,592 - INFO - Defining mesh regions...
+2025-07-12 20:45:23,848 - INFO - Region distribution - Solid: 160000, Void: 160000, Mech: 3520000
+2025-07-12 20:45:23,848 - INFO - Defining boundary conditions...
+2025-07-12 20:45:24,450 - INFO - Back support nodes: 24804
+2025-07-12 20:45:24,450 - INFO - static_tv_weight force points: [188, 188, 188, 188]
+2025-07-12 20:45:24,450 - INFO - dynamic_vibration force points: [188, 188, 188, 188]
+2025-07-12 20:45:24,450 - INFO - seismic_horizontal force points: [188, 188, 188, 188]
+2025-07-12 20:45:24,450 - INFO - fatigue_cycling force points: [188, 188, 188, 188]
+2025-07-12 20:45:24,450 - INFO - Mesh quality analysis - Elements: 3840000, Nodes: 3915681
+2025-07-12 20:45:24,450 - INFO - Adaptive mesh generation completed successfully
+2025-07-12 20:45:24,451 - INFO - Writing mesh to /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345924.mesh
+2025-07-12 20:45:27,594 - INFO - Mesh file written successfully: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345924.mesh
+2025-07-12 20:45:27,598 - INFO - Mesh file generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345924.mesh
+2025-07-12 20:45:27,598 - INFO - Generating XML configuration files...
+2025-07-12 20:45:27,598 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_static_tv_weight.xml
+2025-07-12 20:45:27,599 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_dynamic_vibration.xml
+2025-07-12 20:45:27,599 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_seismic_horizontal.xml
+2025-07-12 20:45:27,599 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_fatigue_cycling.xml
+2025-07-12 20:45:27,599 - INFO - Analyzing load case: static_tv_weight
+2025-07-12 20:45:27,599 - INFO - Analyzing load case: dynamic_vibration
+2025-07-12 20:45:27,599 - INFO - Analyzing load case: seismic_horizontal
+2025-07-12 20:45:27,599 - INFO - Analyzing load case: fatigue_cycling
+2025-07-12 20:45:27,599 - INFO - Optimization report generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/reports/optimization_report_1752345927.md
+2025-07-12 20:45:27,599 - INFO - Optimization completed in 8.57 seconds
+2025-07-12 20:45:28,024 - INFO - Output directories initialized
+2025-07-12 20:45:28,024 - INFO - Set up 4 default load cases
+2025-07-12 20:45:28,024 - INFO - Default material properties configured
+2025-07-12 20:45:28,024 - INFO - TV Mount Optimizer initialized
+2025-07-12 20:45:28,024 - INFO - Starting optimization with aluminum material
+2025-07-12 20:45:28,024 - INFO - Starting adaptive mesh generation...
+2025-07-12 20:45:28,024 - INFO - Mesh resolution: 240 x 160 x 120
+2025-07-12 20:45:28,024 - INFO - Element thickness: 0.100000 m
+2025-07-12 20:45:28,024 - INFO - Creating structured mesh: 240x160x120 elements
+2025-07-12 20:45:30,974 - INFO - Created mesh with 4694921 nodes and 4608000 elements
+2025-07-12 20:45:30,974 - INFO - Defining mesh regions...
+2025-07-12 20:45:33,819 - INFO - Region distribution - Solid: 192000, Void: 192000, Mech: 4224000
+2025-07-12 20:45:33,820 - INFO - Defining boundary conditions...
+2025-07-12 20:45:34,721 - INFO - Back support nodes: 24804
+2025-07-12 20:45:34,722 - INFO - static_tv_weight force points: [188, 188, 188, 188]
+2025-07-12 20:45:34,722 - INFO - dynamic_vibration force points: [188, 188, 188, 188]
+2025-07-12 20:45:34,722 - INFO - seismic_horizontal force points: [188, 188, 188, 188]
+2025-07-12 20:45:34,722 - INFO - fatigue_cycling force points: [188, 188, 188, 188]
+2025-07-12 20:45:34,722 - INFO - design_basis_earthquake force points: [188, 188, 188, 188]
+2025-07-12 20:45:34,722 - INFO - Mesh quality analysis - Elements: 4608000, Nodes: 4694921
+2025-07-12 20:45:34,722 - INFO - Adaptive mesh generation completed successfully
+2025-07-12 20:45:34,722 - INFO - Writing mesh to /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_12_1752345934.mesh
+2025-07-12 20:45:38,515 - INFO - Mesh file written successfully: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_12_1752345934.mesh
+2025-07-12 20:45:38,520 - INFO - Mesh file generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_12_1752345934.mesh
+2025-07-12 20:45:38,520 - INFO - Generating XML configuration files...
+2025-07-12 20:45:38,520 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_static_tv_weight.xml
+2025-07-12 20:45:38,521 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_dynamic_vibration.xml
+2025-07-12 20:45:38,521 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_seismic_horizontal.xml
+2025-07-12 20:45:38,521 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_fatigue_cycling.xml
+2025-07-12 20:45:38,521 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_design_basis_earthquake.xml
+2025-07-12 20:45:38,521 - INFO - Analyzing load case: static_tv_weight
+2025-07-12 20:45:38,521 - INFO - Analyzing load case: dynamic_vibration
+2025-07-12 20:45:38,521 - INFO - Analyzing load case: seismic_horizontal
+2025-07-12 20:45:38,521 - INFO - Analyzing load case: fatigue_cycling
+2025-07-12 20:45:38,521 - INFO - Analyzing load case: design_basis_earthquake
+2025-07-12 20:45:38,522 - INFO - Optimization report generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/reports/optimization_report_1752345938.md
+2025-07-12 20:45:38,522 - INFO - Optimization completed in 10.50 seconds
+2025-07-12 20:45:39,062 - INFO - Results loaded from results/reports/demo_results.json
+2025-07-12 20:45:39,995 - INFO - Stress distribution plot created
+2025-07-12 20:45:40,389 - INFO - Displacement analysis plot created
+2025-07-12 20:45:41,258 - INFO - Optimization convergence plot created
+2025-07-12 20:45:41,573 - INFO - 3D geometry visualization created
+2025-07-12 20:45:42,081 - INFO - Interactive dashboard created: results/plots/optimization_dashboard.html
+2025-07-12 20:45:42,081 - INFO - Generating complete visualization report...
+2025-07-12 20:45:42,840 - INFO - Stress distribution plot created
+2025-07-12 20:45:43,242 - INFO - Displacement analysis plot created
+2025-07-12 20:45:44,086 - INFO - Optimization convergence plot created
+2025-07-12 20:45:44,105 - INFO - Interactive dashboard created: results/plots/optimization_dashboard.html
+2025-07-12 20:45:44,427 - INFO - 3D geometry visualization created
+2025-07-12 20:45:44,428 - INFO - Complete visualization report generated: results/reports/visualization_report.md
+2025-07-12 20:45:58,190 - INFO - NumExpr defaulting to 8 threads.
+2025-07-12 20:45:58,506 - INFO - Output directories initialized
+2025-07-12 20:45:58,507 - INFO - Set up 4 default load cases
+2025-07-12 20:45:58,507 - INFO - Default material properties configured
+2025-07-12 20:45:58,507 - INFO - TV Mount Optimizer initialized
+2025-07-12 20:45:58,507 - INFO - Starting optimization with steel material
+2025-07-12 20:45:58,507 - INFO - Starting adaptive mesh generation...
+2025-07-12 20:45:58,507 - INFO - Mesh resolution: 200 x 160 x 120
+2025-07-12 20:45:58,507 - INFO - Element thickness: 0.100000 m
+2025-07-12 20:45:58,507 - INFO - Creating structured mesh: 200x160x120 elements
+2025-07-12 20:46:01,287 - INFO - Created mesh with 3915681 nodes and 3840000 elements
+2025-07-12 20:46:01,287 - INFO - Defining mesh regions...
+2025-07-12 20:46:03,490 - INFO - Region distribution - Solid: 160000, Void: 160000, Mech: 3520000
+2025-07-12 20:46:03,490 - INFO - Defining boundary conditions...
+2025-07-12 20:46:04,125 - INFO - Back support nodes: 24804
+2025-07-12 20:46:04,126 - INFO - static_tv_weight force points: [188, 188, 188, 188]
+2025-07-12 20:46:04,126 - INFO - dynamic_vibration force points: [188, 188, 188, 188]
+2025-07-12 20:46:04,126 - INFO - seismic_horizontal force points: [188, 188, 188, 188]
+2025-07-12 20:46:04,126 - INFO - fatigue_cycling force points: [188, 188, 188, 188]
+2025-07-12 20:46:04,126 - INFO - Mesh quality analysis - Elements: 3840000, Nodes: 3915681
+2025-07-12 20:46:04,126 - INFO - Adaptive mesh generation completed successfully
+2025-07-12 20:46:04,126 - INFO - Writing mesh to /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_20_1752345964.mesh
+2025-07-12 20:46:07,116 - INFO - Mesh file written successfully: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_20_1752345964.mesh
+2025-07-12 20:46:07,119 - INFO - Mesh file generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_20_1752345964.mesh
+2025-07-12 20:46:07,119 - INFO - Generating XML configuration files...
+2025-07-12 20:46:07,120 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_static_tv_weight.xml
+2025-07-12 20:46:07,120 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_dynamic_vibration.xml
+2025-07-12 20:46:07,120 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_seismic_horizontal.xml
+2025-07-12 20:46:07,120 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_fatigue_cycling.xml
+2025-07-12 20:46:07,120 - INFO - Analyzing load case: static_tv_weight
+2025-07-12 20:46:07,121 - INFO - Analyzing load case: dynamic_vibration
+2025-07-12 20:46:07,121 - INFO - Analyzing load case: seismic_horizontal
+2025-07-12 20:46:07,121 - INFO - Analyzing load case: fatigue_cycling
+2025-07-12 20:46:07,121 - INFO - Optimization report generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/reports/optimization_report_1752345967.md
+2025-07-12 20:46:07,121 - INFO - Optimization completed in 8.61 seconds
+2025-07-12 20:46:07,468 - INFO - Output directories initialized
+2025-07-12 20:46:07,468 - INFO - Set up 4 default load cases
+2025-07-12 20:46:07,468 - INFO - Default material properties configured
+2025-07-12 20:46:07,468 - INFO - TV Mount Optimizer initialized
+2025-07-12 20:46:07,468 - INFO - Starting optimization with steel material
+2025-07-12 20:46:07,468 - INFO - Starting adaptive mesh generation...
+2025-07-12 20:46:07,468 - INFO - Mesh resolution: 200 x 160 x 120
+2025-07-12 20:46:07,468 - INFO - Element thickness: 0.100000 m
+2025-07-12 20:46:07,468 - INFO - Creating structured mesh: 200x160x120 elements
+2025-07-12 20:46:09,907 - INFO - Created mesh with 3915681 nodes and 3840000 elements
+2025-07-12 20:46:09,908 - INFO - Defining mesh regions...
+2025-07-12 20:46:12,159 - INFO - Region distribution - Solid: 160000, Void: 160000, Mech: 3520000
+2025-07-12 20:46:12,160 - INFO - Defining boundary conditions...
+2025-07-12 20:46:12,696 - INFO - Back support nodes: 24804
+2025-07-12 20:46:12,696 - INFO - static_tv_weight force points: [188, 188, 188, 188]
+2025-07-12 20:46:12,696 - INFO - dynamic_vibration force points: [188, 188, 188, 188]
+2025-07-12 20:46:12,696 - INFO - seismic_horizontal force points: [188, 188, 188, 188]
+2025-07-12 20:46:12,696 - INFO - fatigue_cycling force points: [188, 188, 188, 188]
+2025-07-12 20:46:12,696 - INFO - Mesh quality analysis - Elements: 3840000, Nodes: 3915681
+2025-07-12 20:46:12,696 - INFO - Adaptive mesh generation completed successfully
+2025-07-12 20:46:12,697 - INFO - Writing mesh to /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345972.mesh
+2025-07-12 20:46:15,916 - INFO - Mesh file written successfully: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345972.mesh
+2025-07-12 20:46:15,919 - INFO - Mesh file generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345972.mesh
+2025-07-12 20:46:15,919 - INFO - Generating XML configuration files...
+2025-07-12 20:46:15,919 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_static_tv_weight.xml
+2025-07-12 20:46:15,919 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_dynamic_vibration.xml
+2025-07-12 20:46:15,919 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_seismic_horizontal.xml
+2025-07-12 20:46:15,920 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_fatigue_cycling.xml
+2025-07-12 20:46:15,920 - INFO - Analyzing load case: static_tv_weight
+2025-07-12 20:46:15,920 - INFO - Analyzing load case: dynamic_vibration
+2025-07-12 20:46:15,920 - INFO - Analyzing load case: seismic_horizontal
+2025-07-12 20:46:15,920 - INFO - Analyzing load case: fatigue_cycling
+2025-07-12 20:46:15,920 - INFO - Optimization report generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/reports/optimization_report_1752345975.md
+2025-07-12 20:46:15,920 - INFO - Optimization completed in 8.45 seconds
+2025-07-12 20:46:15,920 - INFO - Output directories initialized
+2025-07-12 20:46:15,920 - INFO - Set up 4 default load cases
+2025-07-12 20:46:15,920 - INFO - Default material properties configured
+2025-07-12 20:46:15,920 - INFO - TV Mount Optimizer initialized
+2025-07-12 20:46:16,335 - INFO - Starting optimization with aluminum material
+2025-07-12 20:46:16,335 - INFO - Starting adaptive mesh generation...
+2025-07-12 20:46:16,335 - INFO - Mesh resolution: 200 x 160 x 120
+2025-07-12 20:46:16,335 - INFO - Element thickness: 0.100000 m
+2025-07-12 20:46:16,335 - INFO - Creating structured mesh: 200x160x120 elements
+2025-07-12 20:46:18,988 - INFO - Created mesh with 3915681 nodes and 3840000 elements
+2025-07-12 20:46:18,989 - INFO - Defining mesh regions...
+2025-07-12 20:46:21,199 - INFO - Region distribution - Solid: 160000, Void: 160000, Mech: 3520000
+2025-07-12 20:46:21,199 - INFO - Defining boundary conditions...
+2025-07-12 20:46:21,794 - INFO - Back support nodes: 24804
+2025-07-12 20:46:21,795 - INFO - static_tv_weight force points: [188, 188, 188, 188]
+2025-07-12 20:46:21,795 - INFO - dynamic_vibration force points: [188, 188, 188, 188]
+2025-07-12 20:46:21,795 - INFO - seismic_horizontal force points: [188, 188, 188, 188]
+2025-07-12 20:46:21,795 - INFO - fatigue_cycling force points: [188, 188, 188, 188]
+2025-07-12 20:46:21,795 - INFO - Mesh quality analysis - Elements: 3840000, Nodes: 3915681
+2025-07-12 20:46:21,795 - INFO - Adaptive mesh generation completed successfully
+2025-07-12 20:46:21,795 - INFO - Writing mesh to /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345981.mesh
+2025-07-12 20:46:24,742 - INFO - Mesh file written successfully: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345981.mesh
+2025-07-12 20:46:24,745 - INFO - Mesh file generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345981.mesh
+2025-07-12 20:46:24,745 - INFO - Generating XML configuration files...
+2025-07-12 20:46:24,745 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_static_tv_weight.xml
+2025-07-12 20:46:24,745 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_dynamic_vibration.xml
+2025-07-12 20:46:24,746 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_seismic_horizontal.xml
+2025-07-12 20:46:24,746 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_fatigue_cycling.xml
+2025-07-12 20:46:24,746 - INFO - Analyzing load case: static_tv_weight
+2025-07-12 20:46:24,746 - INFO - Analyzing load case: dynamic_vibration
+2025-07-12 20:46:24,746 - INFO - Analyzing load case: seismic_horizontal
+2025-07-12 20:46:24,746 - INFO - Analyzing load case: fatigue_cycling
+2025-07-12 20:46:24,746 - INFO - Optimization report generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/reports/optimization_report_1752345984.md
+2025-07-12 20:46:24,746 - INFO - Optimization completed in 8.41 seconds
+2025-07-12 20:46:24,746 - INFO - Output directories initialized
+2025-07-12 20:46:24,746 - INFO - Set up 4 default load cases
+2025-07-12 20:46:24,746 - INFO - Default material properties configured
+2025-07-12 20:46:24,746 - INFO - TV Mount Optimizer initialized
+2025-07-12 20:46:25,102 - INFO - Starting optimization with carbon_fiber material
+2025-07-12 20:46:25,103 - INFO - Starting adaptive mesh generation...
+2025-07-12 20:46:25,103 - INFO - Mesh resolution: 200 x 160 x 120
+2025-07-12 20:46:25,103 - INFO - Element thickness: 0.100000 m
+2025-07-12 20:46:25,103 - INFO - Creating structured mesh: 200x160x120 elements
+2025-07-12 20:46:27,710 - INFO - Created mesh with 3915681 nodes and 3840000 elements
+2025-07-12 20:46:27,710 - INFO - Defining mesh regions...
+2025-07-12 20:46:29,931 - INFO - Region distribution - Solid: 160000, Void: 160000, Mech: 3520000
+2025-07-12 20:46:29,931 - INFO - Defining boundary conditions...
+2025-07-12 20:46:30,560 - INFO - Back support nodes: 24804
+2025-07-12 20:46:30,561 - INFO - static_tv_weight force points: [188, 188, 188, 188]
+2025-07-12 20:46:30,561 - INFO - dynamic_vibration force points: [188, 188, 188, 188]
+2025-07-12 20:46:30,561 - INFO - seismic_horizontal force points: [188, 188, 188, 188]
+2025-07-12 20:46:30,561 - INFO - fatigue_cycling force points: [188, 188, 188, 188]
+2025-07-12 20:46:30,561 - INFO - Mesh quality analysis - Elements: 3840000, Nodes: 3915681
+2025-07-12 20:46:30,561 - INFO - Adaptive mesh generation completed successfully
+2025-07-12 20:46:30,561 - INFO - Writing mesh to /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345990.mesh
+2025-07-12 20:46:33,681 - INFO - Mesh file written successfully: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345990.mesh
+2025-07-12 20:46:33,685 - INFO - Mesh file generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_15_1752345990.mesh
+2025-07-12 20:46:33,685 - INFO - Generating XML configuration files...
+2025-07-12 20:46:33,686 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_static_tv_weight.xml
+2025-07-12 20:46:33,686 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_dynamic_vibration.xml
+2025-07-12 20:46:33,686 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_seismic_horizontal.xml
+2025-07-12 20:46:33,686 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_fatigue_cycling.xml
+2025-07-12 20:46:33,686 - INFO - Analyzing load case: static_tv_weight
+2025-07-12 20:46:33,686 - INFO - Analyzing load case: dynamic_vibration
+2025-07-12 20:46:33,686 - INFO - Analyzing load case: seismic_horizontal
+2025-07-12 20:46:33,686 - INFO - Analyzing load case: fatigue_cycling
+2025-07-12 20:46:33,687 - INFO - Optimization report generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/reports/optimization_report_1752345993.md
+2025-07-12 20:46:33,687 - INFO - Optimization completed in 8.58 seconds
+2025-07-12 20:46:34,046 - INFO - Output directories initialized
+2025-07-12 20:46:34,046 - INFO - Set up 4 default load cases
+2025-07-12 20:46:34,046 - INFO - Default material properties configured
+2025-07-12 20:46:34,046 - INFO - TV Mount Optimizer initialized
+2025-07-12 20:46:34,046 - INFO - Starting optimization with aluminum material
+2025-07-12 20:46:34,046 - INFO - Starting adaptive mesh generation...
+2025-07-12 20:46:34,046 - INFO - Mesh resolution: 240 x 160 x 120
+2025-07-12 20:46:34,046 - INFO - Element thickness: 0.100000 m
+2025-07-12 20:46:34,047 - INFO - Creating structured mesh: 240x160x120 elements
+2025-07-12 20:46:36,985 - INFO - Created mesh with 4694921 nodes and 4608000 elements
+2025-07-12 20:46:36,985 - INFO - Defining mesh regions...
+2025-07-12 20:46:39,666 - INFO - Region distribution - Solid: 192000, Void: 192000, Mech: 4224000
+2025-07-12 20:46:39,666 - INFO - Defining boundary conditions...
+2025-07-12 20:46:40,431 - INFO - Back support nodes: 24804
+2025-07-12 20:46:40,432 - INFO - static_tv_weight force points: [188, 188, 188, 188]
+2025-07-12 20:46:40,432 - INFO - dynamic_vibration force points: [188, 188, 188, 188]
+2025-07-12 20:46:40,432 - INFO - seismic_horizontal force points: [188, 188, 188, 188]
+2025-07-12 20:46:40,432 - INFO - fatigue_cycling force points: [188, 188, 188, 188]
+2025-07-12 20:46:40,432 - INFO - design_basis_earthquake force points: [188, 188, 188, 188]
+2025-07-12 20:46:40,432 - INFO - Mesh quality analysis - Elements: 4608000, Nodes: 4694921
+2025-07-12 20:46:40,432 - INFO - Adaptive mesh generation completed successfully
+2025-07-12 20:46:40,432 - INFO - Writing mesh to /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_12_1752346000.mesh
+2025-07-12 20:46:44,129 - INFO - Mesh file written successfully: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_12_1752346000.mesh
+2025-07-12 20:46:44,132 - INFO - Mesh file generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/meshes/TvMount_Advanced_nx_12_1752346000.mesh
+2025-07-12 20:46:44,132 - INFO - Generating XML configuration files...
+2025-07-12 20:46:44,133 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_static_tv_weight.xml
+2025-07-12 20:46:44,133 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_dynamic_vibration.xml
+2025-07-12 20:46:44,133 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_seismic_horizontal.xml
+2025-07-12 20:46:44,133 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_fatigue_cycling.xml
+2025-07-12 20:46:44,134 - INFO - Generated XML configuration: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/simulations/TvSupport_design_basis_earthquake.xml
+2025-07-12 20:46:44,134 - INFO - Analyzing load case: static_tv_weight
+2025-07-12 20:46:44,135 - INFO - Analyzing load case: dynamic_vibration
+2025-07-12 20:46:44,135 - INFO - Analyzing load case: seismic_horizontal
+2025-07-12 20:46:44,135 - INFO - Analyzing load case: fatigue_cycling
+2025-07-12 20:46:44,135 - INFO - Analyzing load case: design_basis_earthquake
+2025-07-12 20:46:44,135 - INFO - Optimization report generated: /Users/prashanthgadwala/Documents/Study material/Semester1/Structural optimisation/3d_topo_tv_mount/results/reports/optimization_report_1752346004.md
+2025-07-12 20:46:44,135 - INFO - Optimization completed in 10.09 seconds
+2025-07-12 20:46:44,634 - INFO - Results loaded from results/reports/demo_results.json
+2025-07-12 20:46:45,504 - INFO - Stress distribution plot created
+2025-07-12 20:46:45,898 - INFO - Displacement analysis plot created
+2025-07-12 20:46:46,769 - INFO - Optimization convergence plot created
+2025-07-12 20:46:47,086 - INFO - 3D geometry visualization created
+2025-07-12 20:46:47,622 - INFO - Interactive dashboard created: results/plots/optimization_dashboard.html
+2025-07-12 20:46:47,622 - INFO - Generating complete visualization report...
+2025-07-12 20:46:48,369 - INFO - Stress distribution plot created
+2025-07-12 20:46:48,766 - INFO - Displacement analysis plot created
+2025-07-12 20:46:49,594 - INFO - Optimization convergence plot created
+2025-07-12 20:46:49,614 - INFO - Interactive dashboard created: results/plots/optimization_dashboard.html
+2025-07-12 20:46:49,931 - INFO - 3D geometry visualization created
+2025-07-12 20:46:49,932 - INFO - Complete visualization report generated: results/reports/visualization_report.md
+2025-07-12 20:47:34,789 - INFO - NumExpr defaulting to 8 threads.
+2025-07-12 20:47:35,193 - INFO - Results loaded from results/reports/demo_results.json
+2025-07-12 20:47:36,041 - INFO - Stress distribution plot created
+2025-07-12 20:47:36,445 - INFO - Displacement analysis plot created
+2025-07-12 20:47:37,355 - INFO - Optimization convergence plot created
+2025-07-12 20:47:37,676 - INFO - 3D geometry visualization created
+2025-07-12 20:47:38,195 - INFO - Interactive dashboard created: results/plots/optimization_dashboard.html
+2025-07-12 20:47:38,195 - INFO - Generating complete visualization report...
+2025-07-12 20:47:38,922 - INFO - Stress distribution plot created
+2025-07-12 20:47:39,319 - INFO - Displacement analysis plot created
+2025-07-12 20:47:40,191 - INFO - Optimization convergence plot created
+2025-07-12 20:47:40,211 - INFO - Interactive dashboard created: results/plots/optimization_dashboard.html
+2025-07-12 20:47:40,532 - INFO - 3D geometry visualization created
+2025-07-12 20:47:40,533 - INFO - Complete visualization report generated: results/reports/visualization_report.md

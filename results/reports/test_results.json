@@ -1,0 +1,11 @@
+{
+  "optimization_time": 45.2,
+  "material": "Steel",
+  "load_cases": {
+    "static_tv_weight": {
+      "max_stress": 15500000.0,
+      "max_displacement": 0.0012,
+      "converged": true
+    }
+  }
+}
