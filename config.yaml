@@ -1,0 +1,114 @@
+# TV Wall Mount Optimizer Configuration File
+# This YAML file contains all configuration parameters for the optimization
+
+geometry:
+  # Basic dimensions (in meters)
+  width: 10.0
+  height: 8.0
+  depth: 6.0
+  wall_thickness: 0.25
+  mount_thickness: 0.25
+  
+  # TV specifications
+  tv_weight: 50.0  # kg
+  tv_size: [1.5, 0.9]  # [width, height] in meters
+  
+  # Mounting configuration
+  mounting_points:
+    - [2.0, 2.0]
+    - [8.0, 2.0]
+    - [2.0, 6.0]
+    - [8.0, 6.0]
+  mounting_hole_radius: 0.2
+
+mesh:
+  base_resolution: 100
+  adaptive_refinement: true
+  refinement_levels: 3
+  quality_threshold: 0.7
+  aspect_ratio_limit: 5.0
+
+optimization:
+  volume_fraction: 0.1
+  max_iterations: 100
+  convergence_tolerance: 1.0e-6
+  filter_radius: 1.7
+  penalty_parameter: 3.0
+  move_limit: 0.2
+
+load_cases:
+  - name: "static_tv_weight"
+    type: "static"
+    force_magnitude: 122.625  # N (50kg * 9.81 / 4 points)
+    force_direction: [0.0, -1.0, 0.0]
+    safety_factor: 2.5
+    description: "Static load from TV weight"
+    
+  - name: "dynamic_vibration"
+    type: "dynamic"
+    force_magnitude: 24.525  # N (20% of static)
+    force_direction: [0.0, -1.0, 0.0]
+    frequency: 10.0  # Hz
+    safety_factor: 1.8
+    description: "Dynamic vibration loads"
+    
+  - name: "seismic_horizontal"
+    type: "seismic"
+    force_magnitude: 49.05  # N (40% of weight horizontally)
+    force_direction: [1.0, 0.0, 0.0]
+    safety_factor: 3.0
+    description: "Horizontal seismic loads"
+    
+  - name: "fatigue_cycling"
+    type: "fatigue"
+    force_magnitude: 12.2625  # N (10% cycling)
+    force_direction: [0.0, -1.0, 0.0]
+    cycles: 1000000
+    safety_factor: 4.0
+    description: "Fatigue loading from TV on/off cycles"
+
+materials:
+  steel:
+    density: 7850  # kg/m³
+    young_modulus: 200.0e9  # Pa
+    poisson_ratio: 0.3
+    yield_strength: 250.0e6  # Pa
+    ultimate_strength: 400.0e6  # Pa
+    fatigue_limit: 120.0e6  # Pa
+    cost_per_kg: 1.5  # USD
+    
+  aluminum:
+    density: 2700  # kg/m³
+    young_modulus: 70.0e9  # Pa
+    poisson_ratio: 0.33
+    yield_strength: 276.0e6  # Pa
+    ultimate_strength: 310.0e6  # Pa
+    fatigue_limit: 90.0e6  # Pa
+    cost_per_kg: 4.0  # USD
+    
+  carbon_fiber:
+    density: 1600  # kg/m³
+    young_modulus: 150.0e9  # Pa
+    poisson_ratio: 0.25
+    yield_strength: 800.0e6  # Pa
+    ultimate_strength: 1000.0e6  # Pa
+    fatigue_limit: 400.0e6  # Pa
+    cost_per_kg: 50.0  # USD
+
+analysis:
+  # Analysis types to perform
+  static_analysis: true
+  modal_analysis: true
+  fatigue_analysis: true
+  buckling_analysis: true
+  
+  # Output settings
+  save_intermediate_results: true
+  generate_paraview_files: true
+  create_animation: false
+  
+  # Post-processing
+  stress_concentration_analysis: true
+  displacement_analysis: true
+  volume_analysis: true
+  weight_optimization: true
