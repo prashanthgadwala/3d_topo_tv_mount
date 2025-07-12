@@ -1,0 +1,3 @@
+*.mesh
+*.log
+__pycache__/
