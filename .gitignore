@@ -1,0 +1,34 @@
+# Generated output files
+results/meshes/*.mesh
+results/outputs/*.cfs
+results/outputs/*.vtk
+results/outputs/*.xml
+results/outputs/*.dat
+results/outputs/*.h5
+results/solver_comparison_*/
+
+# Temporary files
+*.backup
+*_temp.xml
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
