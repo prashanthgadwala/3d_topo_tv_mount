@@ -83,7 +83,7 @@
 <!--            </standard> -->
 <!--         </solutionStrategy>        -->
         <solverList>
-          <cholmod/>
+          <cg/>
         </solverList>
       </system>
     </linearSystems> 
