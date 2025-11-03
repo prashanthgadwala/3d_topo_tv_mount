@@ -1,4 +1,3 @@
-````markdown
 # 3D Topology Optimization: TV Wall Mount Bracket
 
 Implementation of density-based topology optimization for structural design using the SIMP method and openCFS finite element solver.
@@ -392,7 +391,6 @@ This project is licensed under the MIT License. See LICENSE file for details.
 For technical questions, implementation issues, or research collaboration inquiries, please open an issue on the project repository or contact the maintainers directly.
 
 **Note:** This implementation is provided for educational and research purposes. Results should be validated against analytical solutions or experimental data before application to engineering design problems.
-````
 
 ---
 
